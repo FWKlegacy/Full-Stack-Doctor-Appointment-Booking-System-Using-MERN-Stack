@@ -1,7 +1,15 @@
+import Banner from "../components/Banner";
+import Header from "../components/Header";
+import SpecilialityMenu from "../components/SpecilialityMenu";
+import TopDoctors from "../components/TopDoctors";
+
 const Home = () => {
   return (
     <div>
-      <h1>homeee</h1>
+      <Header />
+      <SpecilialityMenu />
+      <TopDoctors />
+      <Banner />
     </div>
   );
 };
