@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const Login = () => {
-  const [state, setState] = useState("Login");
+  const [state, setState] = useState("Sign Up");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
